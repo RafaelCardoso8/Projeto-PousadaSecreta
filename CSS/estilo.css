@@ -180,9 +180,50 @@ span{
     padding: 20px 0;
 }
 
-.rodape {
+.rodape{
+   background-color: #37886d;
+}
+.contatos{
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   gap: 30px;
+   color: #fff;
+} 
+.info-contatos{
+    flex: 1 0 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.info-contatos img{
+    width: 40px;
+    height: 40px;
+}
+.info-contatos p{
+    margin-left: 10px;
+    width: 200px;
+}
+.contatos a{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+.creditos{
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    justify-content: center;
+    border-top: solid 2px #0b4d376c;
+    width: 600px;
+    padding-top: 20px;
+    margin: 0 auto;
 }
+.creditos img{
+    width: 25px;
+}
+
