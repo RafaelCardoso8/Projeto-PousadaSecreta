@@ -1,0 +1,9 @@
+
+
+.imagem-banner{
+    width: 100%;
+    height: 300px;
+    background-image:url(../assets/img-fundo.jpg) ;
+    justify-content: center; 
+    align-items: center;
+}
