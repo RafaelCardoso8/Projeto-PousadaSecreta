@@ -82,6 +82,7 @@ span{
 
 .cont2{
     width: 100%;
+    max-width: 1024px;
     height: 200px; 
     padding: 30px;  
     display: flex;
