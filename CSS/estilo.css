@@ -89,6 +89,7 @@ span{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    margin: auto;
 }
 .cont2 h1{
     font-weight: 400;
